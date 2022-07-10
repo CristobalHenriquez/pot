@@ -1,3 +1,4 @@
+
 var boton=document.querySelector(".header__icono")
 var menu=document.querySelector(".header__navigation")
 var cont=0
