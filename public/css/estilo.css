@@ -36,7 +36,7 @@ header{
    width: 20%;
  }
 
-.header_icono{
+.header__icono{
   height: 100%;
   width: 20%;
   border: 0;
@@ -52,12 +52,19 @@ header{
   background-color: rgb(12,12,12.8);
   height: 25vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   display: none;
 }
 
+.header__navigation--active{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.header__navigation--disabled{
+  display: none;
+}
 
 .header__navigation ul{
   width: 100%;
