@@ -32,8 +32,8 @@ header{
 }
 
  .header__logo{
-   height: 100%;
-   width: 20%;
+   height: 200%;
+   width: 30%;
  }
 
 .header__icono{
@@ -126,4 +126,32 @@ header{
   font-size: 4rem;
   text-align: center;
 
+}
+
+
+/*MAIN*/
+
+main section{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15%;
+}
+
+.section__title{
+  font-size: 4rem;
+  margin-top: 15%;
+}
+
+#us{
+  background-color: (240,240,240);
+}
+
+#us p{
+  margin-top: 45%;
+  font-size: 2.5rem;
+  text-align: justify;
 }
