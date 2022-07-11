@@ -146,12 +146,37 @@ main section{
   margin-top: 15%;
 }
 
+/*SECCION NOSOTROS*/
 #us{
-  background-color: (240,240,240);
+  background-color: rgb(210,210,210);
 }
 
 #us p{
   margin-top: 45%;
   font-size: 2.5rem;
   text-align: justify;
+}
+
+/*SECCION SERVICIOS*/
+
+#services{
+  background-color: rgb(160,160,160);
+  height: auto;
+}
+
+.services__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30% 0;
+}
+
+.services__image{
+  font-size: 12rem;
+}
+
+.services__item h3{
+  font-size: 2rem;
 }
