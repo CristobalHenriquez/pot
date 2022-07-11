@@ -180,3 +180,33 @@ main section{
 .services__item h3{
   font-size: 2rem;
 }
+
+/*CONTACTO*/
+
+#contact{
+  background-color: rgb(80,80,80);
+  height: auto;
+}
+
+#contact .section__title{
+  color: rgb(240,240,240);
+}
+
+.contact__item{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30% 0;
+}
+
+.contact__image{
+  font-size: 12rem;
+  color: rgb(240,240,240);
+}
+.contact__title{
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgb(240,240,240);
+}
