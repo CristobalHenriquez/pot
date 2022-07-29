@@ -33,18 +33,21 @@ header{
 
  .header__logo{
    height: 200%;
-   width: 30%;
+   width: 100%;
+   height: auto;
+
  }
 
 .header__icono{
   height: 100%;
-  width: 20%;
-  border: 0;
-  background-color: transparent;
+  width: 100%;
+  border: 20;
+  background-color: rgb(80,80,80);
+  align-items: center;
 }
 
 .icono{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .header__navigation{
@@ -112,11 +115,12 @@ header{
 .banner__titulo {
   color: rgb(150,150,150);
   width: 30vh;
-  height: 30vh;
-  display: flex;
+  height: 100;
+  display auto;
   justify-content: center;
   align-items: center;
   align-content: center;
+
 
 }
 
@@ -144,23 +148,26 @@ main section{
 .section__title{
   font-size: 4rem;
   margin-top: 15%;
+  height: auto;
 }
 
 /*SECCION NOSOTROS*/
 #us{
   background-color: rgb(210,210,210);
+  height: auto;
 }
 
 #us p{
   margin-top: 45%;
   font-size: 2.5rem;
   text-align: justify;
+  height: auto;
 }
 
 /*SECCION SERVICIOS*/
 
 #services{
-  background-color: rgb(160,160,160);
+  background-color: rgb(220,220,220);
   height: auto;
 }
 
@@ -171,6 +178,8 @@ main section{
   justify-content: center;
   align-items: center;
   margin: 30% 0;
+  height: auto;
+
 }
 
 .services__image{
