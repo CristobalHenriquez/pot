@@ -128,10 +128,11 @@ header{
 
 .banner__titulo h1{
   color: rgb(245,245,245);
-  font-size: 4rem;
+  font-size: 3rem;
+  flex-direction: row;
+  height: auto;
   text-align: center;
   text-align: auto;
-  height: auto;
   margin-bottom: 0%;
 }
 
@@ -236,4 +237,35 @@ footer span{
   font-size: 2.5rem;
   color: rgb(240,240,240);
   text-align: center;
+}
+
+@media (min-whidth: 1000px) {
+  .header__icono{
+    display: none;
+  }
+
+  .header__navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+  }
+
+  .header__navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .navigation__link{
+    font-size: 2rem;
+    color: green;
+  }
+
+
 }
