@@ -26,7 +26,6 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  align-items: center;
   height: 12vh;
   width: 100%;
   background-color: rgb(250,250,250);
@@ -34,7 +33,7 @@ header{
 }
 
  .header__logo{
-   height: 200%;
+   height: 100%;
    width: 100%;
    height: auto;
 
@@ -50,15 +49,16 @@ header{
 }
 
 .icono{
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .header__navigation{
   width: 100%;
-  background-color: rgb(12,12,12.8);
+  background-color: rgb(12,12,12, 0);
   height: 25vh;
   display: flex;
-  display: none;
+  font-size: 5rem;
+  flex-direction: row;
 }
 
 .header__navigation--active{
@@ -119,22 +119,21 @@ header{
   color: rgb(150,150,150);
   width: 30vh;
   height: 100%;
-  display auto;
+  display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-bottom: flex;
 }
 
 
 .banner__titulo h1{
   color: rgb(245,245,245);
-  font-size: 3rem;
+  font-size: 5rem;
   flex-direction: row;
   height: auto;
   text-align: center;
   text-align: auto;
-  margin-bottom: 0%;
-  margin: 10% 0;
 }
 
 
