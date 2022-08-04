@@ -6,6 +6,8 @@ html{
 }
 
 body{
+  background-color: rgb(15,15,15);
+  text-align: center;
   margin: 0;
 }
 
@@ -28,7 +30,7 @@ img {
   align-items: center;
   height: 12vh;
   width: 100%;
-  background-color: rgb(250,250,250);
+  background-color: rgb(250.250.250);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,7 +45,7 @@ img {
   height: 100%;
   width: 100%;
   border: 20%;
-  background-color: rgb(160,160,160);
+  background-color: rgb(15,15,15);
   align-items: center;
   flex: auto;
 }
@@ -54,7 +56,7 @@ img {
 
 .header__navigation{
   width: 100%;
-  background-color: rgb(12,12,12, 0);
+  background-color: rgb(15,15,15);
   height: 20vh;
   display: none;
   font-size: 5rem;
@@ -127,8 +129,9 @@ img {
 
 
 .banner__titulo h1{
-  text-shadow: 0 0 2.5px black;
-  font-size: 4rem;
+  color: white;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 5rem;
   flex-direction: row;
   height: auto;
   text-align: center;
@@ -162,6 +165,7 @@ main section{
 
 #us p{
   margin-top: 7%;
+  margin-bottom: 10%;
   font-size: 2rem;
   text-align: justify;
   height: auto;
@@ -238,6 +242,7 @@ footer span{
   text-align: center;
 }
 @media (min-width: 1000px) {
+
   .header__logo{
     height: 25%;
     width: 50%;
@@ -300,6 +305,7 @@ footer span{
 
    #us p{
      margin-top: 7%;
+     margin-bottom: 10%;
      font-size: 3rem;
      text-align: justify;
      height: auto;
