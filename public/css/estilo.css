@@ -46,7 +46,7 @@ img {
   width: 100%;
   border: 20%;
   background-color: rgb(15,15,15);
-  align-items: center;
+  align-items: flex-start;
   flex: auto;
 }
 
