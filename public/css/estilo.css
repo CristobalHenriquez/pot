@@ -22,7 +22,12 @@ img {
 
 
 /*HEADER*/
-
+button{
+  height: 20px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  border: none;
+}
 .header{
   display: flex;
   justify-content: space-between;
@@ -62,6 +67,7 @@ img {
   display: none;
   font-size: 5rem;
   flex-direction: row;
+  text-align: center;
 }
 
 .header__navigation--active{
@@ -203,7 +209,7 @@ main section{
 }
 
 .services__item h3{
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .services__item h4{
@@ -223,7 +229,7 @@ main section{
 }
 
 form{
-  width: 450px;
+  width: 350px;
   margin: auto;
   background: rgba(0,0,0,0.4);
   padding: 10px 20px;
@@ -231,7 +237,9 @@ form{
   margin-top: 20px;
   border-radius: 7px;
 }
-h2{
+form,h5{
+  color: #fff;
+  font-size: 25px;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -281,6 +289,11 @@ textarea{
   font-size: 3rem;
   text-decoration: none;
   color: rgb(240,240,240);
+
+}
+.mapa{
+  width: 350px;
+  height: 300px;
 }
 
 footer{
@@ -363,7 +376,7 @@ footer span{
    #us p{
      margin-top: 7%;
      margin-bottom: 10%;
-     font-size: 3rem;
+     font-size: 3.5rem;
      text-align: justify;
      height: auto;
    }
@@ -390,11 +403,14 @@ footer span{
    }
 
    .services__image{
-     font-size: 8rem;
+     font-size: 10rem;
    }
 
    .services__item h3{
-     font-size: 2.5rem;
+     font-size: 4.5rem;
+   }
+   .services__item h4{
+     font-size: 2rem;
    }
 
    /*CONTACTO*/
@@ -406,6 +422,7 @@ footer span{
 
    #contact .section__title{
     width: 100%;
+    margin-bottom: 10%;
     text-align: center;
    }
 
@@ -422,7 +439,12 @@ footer span{
      font-size: 8rem;
    }
    .contact__title{
-     font-size: 2.5rem;
+     font-size: 3.5rem;
+   }
+
+   .mapa{
+     width: 500px;
+     height: 480px;
    }
    /*FOOTER*/
 
