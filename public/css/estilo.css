@@ -8,7 +8,7 @@ html{
 body{
   background-color: rgb(15,15,15);
   text-align: center;
-  margin: 0;
+  margin: 2%;
 }
 
 *{
@@ -24,8 +24,10 @@ img {
 /*HEADER*/
 button{
   height: 20px;
-  background-color: rgba(0,0,0,0.4);
-  color: white;
+  width: 20px;
+  border-radius: 20%;
+  background-color: #fffe07b3;
+  color: black;
   border: none;
 }
 .header{
@@ -39,12 +41,10 @@ button{
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
- .header__logo{
-   height: 100%;
-   width: 100%;
-   height: auto;
-
- }
+.header__logo{
+  width: 100%;
+  height: 25vh;
+  }
 
 .header__icono{
   height: 100%;
@@ -98,13 +98,14 @@ button{
   align-items: center;
   align-content: center;
   list-style: none;
-  text-shadow: 0 0 2px red;
+  text-shadow: 0 0 4px rgb(213, 241, 54);
 }
 
 .navigation__link{
-  text-shadow: 0 0 2px red;
+  text-shadow: 0 0 4px rgb(213, 241, 54);
   text-decoration: none;
   color: white;
+  margin-right: 10%;
 }
 
 
@@ -115,9 +116,9 @@ button{
 }
 
 #banner{
-  background-color: rgb(110,110,110);
+  background-color: #a6a6a6;
   width: 100%;
-  height: 88vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +138,7 @@ button{
 
 
 .banner__titulo h1{
-  color: white;
+  color: rgb(8, 8, 8);
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 5rem;
   flex-direction: row;
@@ -202,10 +203,10 @@ main section{
 }
 
 .image__services{
- max-width: 100%;
- max-height: 100%;
- height: 250px;
- width: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 250px;
+  width: 300px;
 }
 
 .services__item h3{
@@ -216,6 +217,7 @@ main section{
   font-size: 2rem;
   text-align: center;
 }
+
 
 /*CONTACTO*/
 
@@ -228,47 +230,21 @@ main section{
   color: rgb(240,240,240);
 }
 
-form{
-  width: 350px;
-  margin: auto;
-  background: rgba(0,0,0,0.4);
-  padding: 10px 20px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 7px;
-}
-form,h5{
-  color: #fff;
-  font-size: 25px;
-  margin: 0;
-  margin-bottom: 20px;
+.fab {
+  padding: 5px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-family: 'Monserrat',sans-serif;
 }
 
-input,textarea{
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  box-sizing: border-box;
-  font-size: 17px;
-  border: none;
+.fab:hover {
+  opacity: 0.7;
 }
-textarea{
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 100%;
-}
-#boton{
-  background-color: #31384A;
-  color: #fff;
-  padding: 20px;
-}
-#boton:hover{
-  cursor: pointer;
-}
-@media (max-width:480px){
-  form{
-    width: 100%;
-  }
+
+.fa-whatsapp {
+  color: #343a40;
 }
 
 
@@ -314,9 +290,8 @@ footer span{
 
 
   .header__logo{
-    height: 25%;
-    width: 50%;
-    height: auto;
+    width: 75%;
+    height: 60vh;
     margin: auto;
   }
 
@@ -329,7 +304,7 @@ footer span{
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    background-color: transparent;
+    background-color: #fdfc2ee0;
     flex-direction: row;
     width: 100%;
     height: 100%;
@@ -343,10 +318,11 @@ footer span{
   }
 
   .navigation__link{
-    font-size: 3.5rem;
-    text-shadow: 0 0 2px red;
+    font-size: 5rem;
+    text-shadow: 1px -1px 20px #171718;
     display: flex;
   }
+  
 
 /*BANNER*/
 
@@ -357,98 +333,124 @@ footer span{
 
   .banner__titulo{
     display: flex;
+    margin-left: 5%;
+  }
+
+  .banner__titulo h1 {
+    color: rgb(8, 8, 8);
+    text-shadow: -20px 5px 20px #fbfbfb;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 5rem;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    text-align: auto;
   }
 
   .banner__carousel{
-    display: block;
-    width: 55%;
-    height: 50%;
-    margin-top: 0;
-    margin-bottom: 20%
-   }
+  display: flex;
+  width: 600px;
+  height: 400px;
+  justify-content: space-around;
+  }
+  
+  /*SECCION NOSOTROS*/
+ #us{
+  background-color: rgb(210,210,210);
+  height: auto;
+  }
 
-   /*SECCION NOSOTROS*/
-   #us{
-     background-color: rgb(210,210,210);
-     height: auto;
-   }
+  #us p{
+  margin-top: 7%;
+  margin-bottom: 10%;
+  font-size: 3.5rem;
+  text-align: justify;
+  height: auto;
+  }
 
-   #us p{
-     margin-top: 7%;
-     margin-bottom: 10%;
-     font-size: 3.5rem;
-     text-align: justify;
-     height: auto;
-   }
+  /*SECCION SERVICIOS*/
 
-   /*SECCION SERVICIOS*/
+  #services{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
 
-   #services{
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-around;
-   }
-   #services .section__title{
-     width: 100%;
-     text-align: center;
-   }
+  #services .section__title{
+  width: 100%;
+  text-align: center;
+  }
+  .section__title{
+    font-size: 5rem;
+  }
 
-   .services__item{
-     width: 28%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin: 12% 0;
-   }
+  .services__item{
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12% 0;
+  }
 
-   .services__image{
-     font-size: 10rem;
-   }
+  .services__image{
+  font-size: 10rem;
+  }
 
-   .services__item h3{
-     font-size: 4.5rem;
-   }
-   .services__item h4{
-     font-size: 2rem;
-   }
+  .services__item h3{
+  font-size: 4.5rem;
+  }
 
-   /*CONTACTO*/
-   #contact{
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-around;
-   }
+  .services__item h4{
+  font-size: 2rem;
+  }
+  .fab {
+  padding: 5px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: solid;
+  border-radius: 50%;
+  font-family: 'Monserrat', sans-serif;
+  }
+  
 
-   #contact .section__title{
-    width: 100%;
-    margin-bottom: 10%;
-    text-align: center;
-   }
+  /*CONTACTO*/
+  #contact{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
 
-   .contact__item{
-     width: 28%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin: 12% 0;
-   }
+  #contact .section__title{
+  width: 100%;
+  margin-bottom: 10%;
+  text-align: center;
+  }
 
-   .contact__image{
-     font-size: 8rem;
-   }
-   .contact__title{
-     font-size: 3.5rem;
-   }
+  .contact__item{
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12% 0;
+  }
 
-   .mapa{
-     width: 500px;
-     height: 480px;
-   }
-   /*FOOTER*/
+  .contact__image{
+  font-size: 8rem;
+  }
 
-   footer span{
-     font-size: 1.5rem;
-   }
+  .contact__title{
+  font-size: 3.5rem;
+  }
+
+  .mapa{
+    display: flex;
+    width: 700px;
+  }
+  /*FOOTER*/
+
+  footer span{
+    font-size: 2rem;
+  }
 }
