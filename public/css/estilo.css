@@ -133,15 +133,15 @@ button{
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-bottom: auto;
 }
 
 
 .banner__titulo h1{
   color: rgb(8, 8, 8);
+  text-shadow: -20px 5px 20px #fbfbfb;
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 5rem;
-  flex-direction: row;
+  font-size: 4em;
+  display: flex;
   height: auto;
   text-align: center;
   text-align: auto;
@@ -218,6 +218,28 @@ main section{
   text-align: center;
 }
 
+.btn-secondary {
+  color: #fff;
+  font-size: 2em;
+  height: 30px;
+  width: 250px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.dropdown-item {
+  display: block;
+  font-size: 2em;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
 
 /*CONTACTO*/
 
@@ -231,12 +253,11 @@ main section{
 }
 
 .fab {
-  padding: 5px;
+  padding: 4px;
   font-size: 2rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  font-family: 'Monserrat',sans-serif;
 }
 
 .fab:hover {
@@ -245,6 +266,7 @@ main section{
 
 .fa-whatsapp {
   color: #343a40;
+  text-shadow: -1px 0px 4px #6c757d;
 }
 
 
@@ -340,11 +362,11 @@ footer span{
     color: rgb(8, 8, 8);
     text-shadow: -20px 5px 20px #fbfbfb;
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 5rem;
+    font-size: 4em;
     flex-direction: row;
-    height: auto;
-    width: auto;
-    text-align: auto;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
   }
 
   .banner__carousel{
@@ -406,13 +428,37 @@ footer span{
   }
   .fab {
   padding: 5px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   text-decoration: solid;
   border-radius: 50%;
-  font-family: 'Monserrat', sans-serif;
   }
-  
+  .h1,h1 {
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  }
+
+.btn-secondary {
+  color: #fff;
+  font-size: 4em;
+  height: 50px;
+  width: 500px;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.dropdown-item {
+  display: block;
+  font-size: 3em;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
 
   /*CONTACTO*/
   #contact{
